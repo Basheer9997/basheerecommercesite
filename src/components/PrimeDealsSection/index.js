@@ -1,6 +1,6 @@
 import {Component} from 'react'
 import Cookies from 'js-cookie'
-import { ThreeDots } from 'react-loader-spinner'
+import { ClipLoader } from "react-spinners"
 
 import ProductCard from '../ProductCard'
 
@@ -84,7 +84,7 @@ class PrimeDealsSection extends Component {
 
   renderLoadingView = () => (
     <div className="primedeals-loader-container">
-      <ThreeDots type="ThreeDots" color="#0b69ff" height="50" width="50" />
+      <ClipLoader type="ThreeDots" color="#0b69ff" height="50" width="50" />
     </div>
   )
 
